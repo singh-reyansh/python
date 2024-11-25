@@ -1,0 +1,17 @@
+# Python -- Installing -- Why ?
+
+# Hola -- Hello --- Dictionary -- It helps our system (Computer) to understand what to do.
+# VS CODE -- PyCharm , Sublime , Atom -- Text Editor -- It helps us to write the 
+# code. -- Notepad -- Syntax Highlighting
+# Git Bash 
+# Git Hub -- Google Drive -- Public / Private 
+
+
+
+# cd folderName -- Change Directory (Folder) - to go from Parent to child Folder
+# cd .. -- From Child to immediate parent
+# ls - listing all the files and folders in the current directory
+# mkdir -- Make Directory (Folder) - to create a new folder
+
+
+
