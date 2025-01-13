@@ -29,7 +29,9 @@ print(type(is_valid)) # <class 'bool'>
 
 # is_valid = 100       # True or False
 
-x = y +100
+# Why knowing the type of the variable is cruciual ?
+x = y +100    # 600
+# x = name + 100     # Will throw an error given below:
 # Traceback (most recent call last):
 #   File "c:\Users\Admin\Desktop\python\Day3\002.variables.py", line 33, in <module>
 #     name = name + 100

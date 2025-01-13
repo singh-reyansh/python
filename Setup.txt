@@ -15,3 +15,21 @@
 
 
 
+# Git Commands -
+
+# git status - we try to check the status - addition , deletion , modification
+
+# git add -- we are confirming that I want to send trhese many files to online repository
+
+# git commit -m "Some message"
+
+# git push
+
+
+# git pull 
+
+
+# git clone repo_link
+
+
+
