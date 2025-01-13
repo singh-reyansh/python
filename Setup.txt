@@ -21,15 +21,19 @@
 
 # git add -- we are confirming that I want to send trhese many files to online repository
 
+# git add . -- Adding all the files
+
+# git add File_name
+
 # git commit -m "Some message"
 
-# git push
+# git push   - Wew send our changes to the online repository 
 
 
-# git pull 
+# git pull  -- it will fetch the latest changes from the repository
 
 
-# git clone repo_link
+# git clone repo_link  -- 
 
 
 
