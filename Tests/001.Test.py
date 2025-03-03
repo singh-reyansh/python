@@ -12,13 +12,13 @@
   c) functional programming
   d) all of the mentioned
 
-   3. Is Python case sensitive when dealing with identifiers?
+   3. Is Python case sensitive when dealing with identifiers? b
   a) no
   b) yes
   c) machine dependent
   d) none of the mentioned
 
-  4. Which of the following is the correct extension of the Python file?
+  4. Which of the following is the correct extension of the Python file? c
   a) .python                                                            
   b) .pl    
   c) .py
@@ -30,7 +30,7 @@
   c) Python code is only compiled
   d) Python code is only interpreted
 
-  6. All keywords in Python are in _________
+  6. All keywords in Python are in __b_______
   a) Capitalized                            
   b) lower case 
   c) UPPER CASE 
@@ -43,44 +43,44 @@
   c) 4 
   d) 1
 
-  8. Which of the following is used to define a block of code in Python language?
+  8. Which of the following is used to define a block of code in Python language? a
   a) Indentation
   b) Key
   c) Brackets
   d) All of the mentioned
 
-  9. Which keyword is used for function in Python language?
+  9. Which keyword is used for function in Python language? b
   a) Function                                              
   b) Def     
   c) Fun
   d) Define
            
-  10. Which of the following character is used to give single-line comments in Python?
+  10. Which of the following character is used to give single-line comments in Python? b
   a) //
   b) #
   c) !
   d) /*
 
-  11. Which of the following functions can help us to find the version of python that we are currently
+  11. Which of the following functions can help us to find the version of python that we are currently a
   working on?
   a) sys.version(1)
   b) sys.version(0)
   c) sys.version() 
   d) sys.version 
 
-  12. Which of the following is true for variable names in Python?
+  12. Which of the following is true for variable names in Python? b
   a) underscore and ampersand are the only two special characters allowed
   b) unlimited length
   c) all private members must have leading and trailing underscores
   d) none of the mentioned      
 
-  13. Which of the following is the truncation division operator in Python?
+  13. Which of the following is the truncation division operator in Python? c
   a) |
   b) //
   c) /
   d) %
 
-  14. Which of the following functions is a built-in function in python?
+  14. Which of the following functions is a built-in function in python? b
   a) factorial()                                                        
   b) print()    
   c) seed()
@@ -106,14 +106,14 @@
   c) 56.0000
   d) 56.24 
 
-  18. What will be the output of the following Python function?
+  18. What will be the output of the following Python function? b
      len("Python Test 1")
   a) Error
   b) 13
   c) 12
   d)14          
 
-  19. What will be the output of the following Python code?
+  19. What will be the output of the following Python code? b
     x = 'Python Test'
     print(x.upper())
   a) Python TEST
@@ -121,48 +121,48 @@
   c) error 
   d) PYTHON Test
 
-  20. What arithmetic operators cannot be used with strings in Python?
+  20. What arithmetic operators cannot be used with strings in Python? d
   a) *                                                                
   b) –
   c) +    
   d) All of the above
                         
-  21. What will be the output of the following Python code?
+  21. What will be the output of the following Python code? d
      print("python. test".capitalize())
   a) Apython. TEST
   b) Python. def
   c) Python. test
   d) PYTHON. TEST
 
-  22. What will be the output of the following Python program?
+  22. What will be the output of the following Python program? a
   print("Hello" + 123)
   a) error
   b) Hello123
   c) Hello 123
   d) none of the mentioned
 
-  23. What will be the output of the following Python code?
+  23. What will be the output of the following Python code? a
      print(type('True'))
   a) error
   b) string
   c) boolean
   d) Numeric
 
-  22. What will be the output of the following Python program?
+  22. What will be the output of the following Python program? a
     print(bool(-1)+100)
   a) 99
   b) 100
   c) error
   d) 101
 
-    23. What will be the output of the following Python program?
+    23. What will be the output of the following Python program? b
     print(bool(-1)+1)
   a) 2
   b) 0
   c) error
   d) 1
 
-    24. What will be the output of the following Python program?
+    24. What will be the output of the following Python program? d
     print(bool(100)+100)
   a) 100
   b) 101
@@ -175,7 +175,7 @@
   c) None of the mentioned                                    
   d) All of the mentioned 
 
-  26. What is use of type() function in Python?
+  26. What is use of type() function in Python? a
   a) It returns the type of the obeject              
   b) It is a function to take input
   c) it is use to calculate the size of the variable                                   
@@ -184,3 +184,6 @@
     
 
 '''
+# print("Hello"-"world")
+
+# print("Hello"*3)
