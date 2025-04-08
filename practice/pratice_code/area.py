@@ -1,4 +1,4 @@
-length = float(27)
-breadth = float(23.5)
+length = float(input("Enter a number for the length "))
+breadth = float(input("Enter a number for the breadth "))
 area = length * breadth
-print(area)
+print(f"The area of the rectangle is: {area}")

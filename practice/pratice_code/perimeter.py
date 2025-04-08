@@ -1,4 +1,4 @@
-length = float(9)
-breadth = float(17)
+length = float(input("Enter a number for the leangth "))
+breadth = float(input("Enter a number for the breadth"))
 perimeter = 2 * (length + breadth)
-print(perimeter)
+print(f"The perimeter of the rectangle is {perimeter}")
