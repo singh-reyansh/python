@@ -6,3 +6,4 @@ Grocery_list.remove('orange juice')
 Grocery_list[0] = "milk(cheaper)"
 Grocery_list[2]= "bread(cheaper)"
 print(Grocery_list)
+print("This is the new grocery list!")
