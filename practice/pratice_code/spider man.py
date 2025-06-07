@@ -1,3 +1,5 @@
-print("Spider Man")
+print("spider man")
+
 print()
-print("he is cool,brave, and funny")
+
+print("he is cool brave and fuuny")
