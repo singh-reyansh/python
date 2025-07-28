@@ -54,8 +54,8 @@ for x in range(5):
 # 1 2 3 4 
 # 1 2 3 4 5
 """
-for x in range(5):
-    for i in range(x+1):
+for x in range(5):   #rows 
+    for i in range(x+1):    #columns
         print(i+1, end=" ")
     print()
 """
@@ -67,9 +67,9 @@ for x in range(5):
 
 """
 
-for i in range(5):
-    for j in range(i+1):
-        print(i+1, end=" ")
+for x in range(5):
+    for j in range(x+1):
+        print(x+1, end=" ")
     print()
 """
 
@@ -117,3 +117,36 @@ for i in range(5):
     print()
 
 """
+
+# 
+"""
+for i in range(5):
+    for j in range(5):
+        if i==0 or i==4 or j==0 or j==4:
+            print("*", end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+"""
+
+"""
+for i in range(5):
+    for j in range(8):
+        if i==0 or i==4 or j==0 or j==7:
+            print("*", end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+"""
+
+n = 5
+for i in range(n):
+    if i==0:
+        print(" "*(n-1)+"*")
+    elif i ==n-1:
+        print("* "*n)
+    else:
+        print(" "*(n-i-1) + "* "+ "  "*(i-1) + "*")
+
+
