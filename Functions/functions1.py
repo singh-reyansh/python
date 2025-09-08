@@ -60,13 +60,16 @@ MyFunction("Arvinder")
 """
 # DRY -- Do Not repeat yourself
 
-# def AddNumbers(a,b):
-#     print("Sum of numbers is :",a+b)
+"""
+def AddNumbers(a,b):
+    print("Sum of numbers is :",a+b)
 
-# AddNumbers(23,45)
-# AddNumbers(223,45)
-# AddNumbers(23,475)
-# AddNumbers(203,45)
+AddNumbers(23,45)
+AddNumbers(223,45)
+AddNumbers(23,475)
+AddNumbers(203,45)
+
+"""
 
 
 
@@ -77,9 +80,9 @@ def AddNumbers(a,b):
     # print("Hello")
 
 # print(result)
-# x = AddNumbers(23,45)
+x = AddNumbers(23,45)
 
-# print(x+100)
+print(x+100)
 
 # Return -- 1. It returns a copy of the local variables   2. It marks the ending of the program.
 
@@ -94,22 +97,35 @@ def Fullname(fname , lname):
 # print(Fullname("Python", "Coder"))
 
 """
-def First():
-    print("Hello I am in First")
-    Second()
 
-def Second():
-    print("Hello I am in Second")
-
-First()
 """
-
 def First():
     print("Hello I am in First")
     Second()
-    print("Hello I am after Second")
+    print("Finished")
 
 def Second():
     print("Hello I am in Second")
 
 First()
+# def First():
+#     print("Hello I am in First")
+#     Second()
+#     print("Hello I am after Second")
+
+# def Second():
+#     print("Hello I am in Second")
+
+# First()
+
+
+# def Hello():
+#     x = 40 
+#     y = 6
+#     print(x+y)
+# Hello()
+# print("Hello")
+# Hello()
+# Hello()
+# Hello()
+# Hello()
