@@ -1,0 +1,39 @@
+# Python -- Installing -- Why ?
+
+# Hola -- Hello --- Dictionary -- It helps our system (Computer) to understand what to do.
+# VS CODE -- PyCharm , Sublime , Atom -- Text Editor -- It helps us to write the 
+# code. -- Notepad -- Syntax Highlighting
+# Git Bash 
+# Git Hub -- Google Drive -- Public / Private 
+
+
+
+# cd folderName -- Change Directory (Folder) - to go from Parent to child Folder
+# cd .. -- From Child to immediate parent
+# ls - listing all the files and folders in the current directory
+# mkdir -- Make Directory (Folder) - to create a new folder
+
+
+
+# Git Commands -
+
+# git status - we try to check the status - addition , deletion , modification
+
+# git add -- we are confirming that I want to send trhese many files to online repository
+
+# git add . -- Adding all the files
+
+# git add File_name
+
+# git commit -m "Some message"
+
+# git push   - Wew send our changes to the online repository 
+
+
+# git pull  -- it will fetch the latest changes from the repository
+
+
+# git clone repo_link  -- 
+
+
+

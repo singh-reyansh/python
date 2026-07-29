@@ -1,0 +1,4 @@
+3222223.02223.055.660000000000004People :2name :1amount :1seperate_items :2single_bill :23.0Total bill :55.660000000000004
+ people :2name :1amount :1seperate_items :2single_bill :23.0Total bill :55.660000000000004
+ people :2  name :1  amount :1  seperate_items :2  single_bill :23.0  Total bill :55.660000000000004
+ people :2  name :1  amount :1  seperate_items :2  single_bill :23.0  Total bill :55.66
