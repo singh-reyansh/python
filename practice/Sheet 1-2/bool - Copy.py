@@ -1,3 +1,0 @@
-bool = False
-
-print(bool)

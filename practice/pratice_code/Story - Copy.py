@@ -1,8 +1,0 @@
-print("We should write a crazy story!")
-print()
-print("Let's start by getting some info from you")
-print()
-game = input("What is your favorite video game?")
-adj = input("What is your favorite ice cream flavor")
-place = input("What is your favorite holiday destination?")
-print("Reyansh played",game, "With his game controller","he was eating",adj,"In",place)
