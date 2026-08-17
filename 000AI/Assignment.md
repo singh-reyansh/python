@@ -2,7 +2,7 @@ Introduction to AI
 
 Choose the correct answer for each question.
 
-1. What is the main difference between traditional coding and machine learning?
+1. What is the main difference between traditional coding and machine learning? B
 
 A) Traditional coding is slower than machine learning.
 
@@ -12,7 +12,7 @@ C) Machine learning requires more lines of code than traditional coding.
 
 D) Traditional coding can only handle numbers, while machine learning handles text.
 
-2. Which of the following is an example of automation?
+2. Which of the following is an example of automation? C
 
 A) A robot teaching itself to walk.
 
@@ -22,7 +22,7 @@ C) A script that sends a daily email report to all employees.
 
 D) A program that identifies cats in photos after seeing many examples.
 
-3. Why do traditional programs struggle to understand the word "Apple" correctly in different sentences?
+3. Why do traditional programs struggle to understand the word "Apple" correctly in different sentences? B
 
 A) They cannot read capital letters.
 
@@ -32,7 +32,7 @@ C) They only understand fruit names.
 
 D) They are not connected to the internet.
 
-4. What does the "Pre-trained" part of ChatGPT mean?
+4. What does the "Pre-trained" part of ChatGPT mean? B
 
 A) It learns from your personal conversations.
 
@@ -42,7 +42,7 @@ C) It was trained by previous users of the internet.
 
 D) It only uses information from the current conversation.
 
-5. What is a prompt in the context of AI like ChatGPT?
+5. What is a prompt in the context of AI like ChatGPT? C
 
 A) A type of computer virus.
 
@@ -52,7 +52,7 @@ C) The instruction or input given to the AI model.
 
 D) A button that starts the training process.
 
-6. Which of the following is the best example of prompt engineering?
+6. Which of the following is the best example of prompt engineering? C
 
 A) "Tell me about pollution."
 
@@ -62,7 +62,7 @@ C) "Write a 250-word paragraph for a 10-year-old explaining air pollution, its c
 
 D) "Write an essay on pollution."
 
-7. Why does a more detailed prompt usually lead to a better response from an AI?
+7. Why does a more detailed prompt usually lead to a better response from an AI? C
 
 A) The AI works faster with more words.
 
@@ -72,7 +72,7 @@ C) The AI can understand exactly what you want, including tone, length, and audi
 
 D) AI models are designed to ignore short prompts.
 
-8. Which of the following should you NEVER share with an AI tool like ChatGPT?
+8. Which of the following should you NEVER share with an AI tool like ChatGPT? C
 
 A) A funny joke
 
@@ -82,7 +82,7 @@ C) Your bank account password
 
 D) A question about history
 
-9. Fill in the blank: Machine Learning is a subset of ____________.
+9. Fill in the blank: Machine Learning is a subset of _Artificial_intelligence__. C
 
 A) Automation
 
@@ -92,7 +92,7 @@ C) Artificial Intelligence
 
 D) Prompt Engineering
 
-10. What is the correct order of the journey from traditional coding to better AI responses, as shown in the notes?
+10. What is the correct order of the journey from traditional coding to better AI responses, as shown in the notes? B
 
 A) Automation -> Machine Learning -> Traditional Coding -> AI -> Prompting
 
