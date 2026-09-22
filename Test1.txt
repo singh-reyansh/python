@@ -1,0 +1,230 @@
+Q1. What is the primary difference between a "prompt" and "prompt engineering"? B
+
+A) A prompt is for beginners; prompt engineering is for experts
+B) A prompt is the actual instruction (an artifact); prompt engineering is the systematic process of designing, testing, and optimizing it
+C) A prompt is written in English; prompt engineering is written in code
+D) A prompt is used once; prompt engineering is used only in production
+
+Q2. According to the material, which is the correct mental model of an AI model? B
+
+A) A search engine that retrieves exact answers
+B) A highly capable worker that still needs goals, context, constraints, and feedback
+C) A deterministic program that produces the same output every time
+D) A database that stores and retrieves facts
+
+Q3. Which component of a prompt establishes the perspective or expertise expected from the model? C
+
+A) Task
+B) Context
+C) Role
+D) Constraint
+
+Q4. What is the key limitation of role prompting? C
+
+A) It only works for coding tasks
+B) It cannot be combined with other prompt components
+C) It does not magically give the model real-world credentials or guarantee expertise
+D) It always increases hallucination
+
+Q5. Which is the BEST example of a well-specified constraint? c
+
+A) "Make the answer perfect."
+B) "Be good."
+C) "Use only information contained in the supplied document. If the document does not contain the answer, state that explicitly."
+D) "Don't be vague."
+
+Q6. What is the primary purpose of few-shot prompting? B
+
+A) To reduce the model's temperature
+B) To let the model infer classification rules, output patterns, or transformation behavior from multiple demonstrations
+C) To replace the need for instructions entirely
+D) To make the prompt shorter
+
+Q7. What is the difference between zero-shot, one-shot, and few-shot prompting? B
+
+A) They differ in the number of model calls made
+B) They differ in the number of examples provided (zero, one, or multiple)
+C) They differ in the temperature setting used
+D) They differ in whether a system prompt is used
+
+Q8. According to the material, what is the recommended approach to chain-of-thought prompting? B
+
+A) Always demand the model's full hidden internal reasoning verbatim
+B) Ask for concise rationale, key steps, checks, or justification when needed rather than demanding hidden internal reasoning verbatim
+C) Never ask for any reasoning
+D) Only use it for mathematical problems
+
+Q9. What is "step-back prompting"? B
+
+A) Asking the model to repeat the question
+B) Asking the model to consider the broader general principle before solving the specific problem
+C) Asking the model to reduce its output length
+D) Asking the model to use fewer examples
+
+Q10. What is the correct sequence in the "generate then critique" pattern? B
+
+A) Critique → Generate → Final
+B) Generate → Critique → Improve → Final
+C) Generate → Final → Critique
+D) Critique → Improve → Generate → Final
+
+Q11. What is the key difference between decomposition and prompt chaining? B
+
+A) They are the same thing
+B) Decomposition divides a large task into smaller sub-tasks; prompt chaining connects multiple model calls where each output feeds the next
+C) Decomposition uses one model call; prompt chaining uses one prompt
+D) Decomposition is for coding only; prompt chaining is for writing only
+
+Q12. What is the primary purpose of delimiters in prompts? B
+
+A) To make the prompt look professional
+B) To separate instructions from data and distinguish instructions, data, examples, and model output
+C) To increase the model's context window
+D) To reduce token usage
+
+Q13. According to the material, why are positive instructions generally preferred over negative instructions? B
+
+A) Negative instructions are always ignored by models
+B) Positive specification, describing desired behavior, is often clearer than telling the model what not to do
+C) Positive instructions use fewer tokens
+D) Negative instructions cause hallucinations
+Q14. What is the primary risk of relying only on natural language instructions for structured output in production? B
+
+A) The model will refuse to answer
+B) Schema enforcement through the API or structured output capabilities is generally stronger than relying only on natural language instructions
+C) Natural language instructions are always ignored
+D) It increases latency
+
+Q15. What is the relationship between context window size and reasoning quality? B
+
+A) A larger context window always means better reasoning
+B) A larger context window does not automatically mean better reasoning; more information can also mean noise, redundancy, conflicts, distraction, and higher cost
+C) Context window size has no effect on reasoning
+D) A smaller context window always produces better results
+
+Q16. What is the core principle of context management? B
+
+A) More context is always better
+B) More context does not mean better context; good context is relevant, current, accurate, compact, and well structured
+C) Context should never be summarized
+D) Only the system prompt matters
+
+Q17. What is prompt injection? B
+
+A) A technique to make prompts run faster
+B) When untrusted input attempts to manipulate model instructions, such as a document saying "Ignore all previous instructions"
+C) A method to compress prompts
+D) A way to increase model temperature
+
+Q18. What is the correct conceptual order of instruction hierarchy? B
+
+A) User → System → Developer → External content
+B) System → Developer → User → External content
+C) External content → User → Developer → System
+D) Developer → System → External content → User
+
+Q19. What is grounding in the context of prompt engineering? A
+
+A) Connecting model outputs to reliable external information or supplied evidence
+B) Making the model run on local hardware
+C) Reducing the model's temperature to zero
+D) Fine-tuning the model on custom data
+
+Q20. In a basic RAG architecture, what is the correct sequence? B
+
+A) LLM → Retriever → Documents → Answer
+B) User Question → Retriever → Relevant Documents → Context → LLM → Answer
+C) Documents → LLM → Retriever → Answer
+D) User Question → LLM → Retriever → Answer
+
+Q21. What is the key principle of function calling? B
+
+A) The model directly executes every external function
+B) The model produces structured arguments for an external function, and the application executes the function
+C) Function calling requires the user to manually provide every argument
+D) Function calling changes the model's parameters
+
+Q22. What is the primary difference between prompt engineering and context engineering? B
+
+A) They are the same thing
+B) Prompt engineering focuses primarily on instructions; context engineering is broader and concerns what information the model receives, how it is selected, organized, retrieved, remembered, or summarized
+C) Context engineering is only for RAG systems
+D) Prompt engineering is only for beginners
+
+Q23. What is a golden dataset? B
+
+A) A dataset that is always correct
+B) A trusted collection of examples containing expected or reference outcomes, used to compare prompt versions
+C) A dataset used only for fine-tuning
+D) A dataset with no errors
+
+Q24. According to the material, what should happen when a prompt's output is not supported by the supplied evidence? C
+
+A) The model should guess the most likely answer
+B) The model should state that it is unknown rather than inventing an answer
+C) The model should use its training data to fill the gap
+D) The model should refuse to answer entirely
+
+Q25. What is prompt versioning and why is it important? B
+
+A) Saving multiple copies of the same prompt
+B) Versioning prompts like software and recording version, date, changes, model, evaluation score, known failures, cost, and latency
+C) Deleting old prompts
+D) Using only the latest model
+
+Q26. What is the primary goal of prompt optimization? B
+
+A) To make the prompt as long as possible
+B) To systematically improve prompts against an objective using evaluation datasets and scoring, rather than relying on intuition
+C) To use the most expensive model
+D) To reduce the number of prompts
+
+Q27. According to the Golden Rule of Prompt Engineering, what should you do if the model must guess an important requirement? B
+
+A) Accept the guess as likely correct
+B) Recognize that the specification is incomplete and make the important assumption an explicit requirement
+C) Increase the temperature
+D) Ignore the assumption if the output looks reasonable
+
+Q28. What is the primary security principle for tool use in AI systems? B
+
+A) Give the model unlimited tool permissions
+B) Apply least privilege, validate tool arguments, limit tool permissions, and require confirmation for sensitive actions
+C) Never use tools
+D) Only use tools in development
+
+Q29. What is the key insight about hallucinations in prompt engineering? B
+
+A) Prompting can completely eliminate hallucinations
+B) Prompting can reduce hallucinations but cannot eliminate them completely; stronger architecture can combine grounded context, retrieval, verification, structured output, and evaluation
+C) Hallucinations are only caused by high temperature
+D) Hallucinations only occur with small models
+
+Q30. What is the most important shift in mindset from beginner to engineering-level prompt engineering? B
+
+A) From writing longer prompts to writing shorter prompts
+B) From "What sentence should I write?" to "What behavior do I need from the system?"
+C) From using one model to using multiple models
+D) From English to code
+
+True / FALSE 
+
+Q31. The Input and Task components of a prompt serve the same purpose because both tell the model what to work on. True
+
+Q32. Using precise action verbs such as "summarize," "compare," "classify," and "extract" can make a task specification clearer. True
+
+Q33. Quality criteria describe how the output should be judged, such as accuracy, relevance, conciseness, technical precision, or whether it is supported by supplied information. True
+
+Q34. A coding prompt can be made more useful by specifying the programming language/version, framework, expected behavior, constraints, edge cases, and testing requirements. True
+
+Q35. A learning prompt only needs to specify the topic because the model can automatically determine the student's existing knowledge and desired difficulty. False
+
+Q36. A research prompt can benefit from specifying the research question, scope, source requirements, date range, evidence standards, uncertainty, and citation expectations. True
+
+Q37. In data-analysis prompting, defining how missing values, outliers, assumptions, and data-quality issues should be handled can be important for producing a reliable analysis. True
+
+Q38. An AI agent can be designed with goals and tools without defining boundaries, permissions, failure handling, or stopping conditions. False
+
+Q39. A prompt is always the complete AI workflow; therefore, retrieval, validation, tools, and application code are not separate parts of an AI system. True
+
+Q40. Temperature primarily controls the degree of variation or randomness in model outputs; lowering it generally makes outputs more deterministic, but it does not guarantee correctness. True
